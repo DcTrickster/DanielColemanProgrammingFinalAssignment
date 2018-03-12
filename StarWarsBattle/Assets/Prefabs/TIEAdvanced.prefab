@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 23207171380143990}
   - component: {fileID: 114334215592536354}
   m_Layer: 0
-  m_Name: TIEAdvanced
+  m_Name: TIEAdvancedCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

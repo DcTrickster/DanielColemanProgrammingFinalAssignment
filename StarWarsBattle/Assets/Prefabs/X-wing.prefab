@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 23049810729269096}
   - component: {fileID: 114614048019158272}
   m_Layer: 0
-  m_Name: X-wing
+  m_Name: X-wingCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
