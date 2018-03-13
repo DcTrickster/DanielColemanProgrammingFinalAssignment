@@ -9,12 +9,18 @@ public class OffsetPursue : SteeringBehavior
 	private Vector3 offset;
 	Vector3 worldTarget;
 
+	Vector3 lookDirection; 
+	public float turnSpeed;
+	public float moveSpeed;
+
+
 	// Use this for initialization
 	void Start () 
 	{
 		offset = transform.position - leader.transform.position;
 		offset = Quaternion.Inverse(leader.transform.rotation) * offset;
 	}
+		
 	
 	public override Vector3 Calculate()
 	{
@@ -24,5 +30,6 @@ public class OffsetPursue : SteeringBehavior
 
 		Vector3 targetPos = worldTarget + (leader.velocity * time);
 		return boid.ArriveForce (targetPos, 10);
+
 	}
 }
